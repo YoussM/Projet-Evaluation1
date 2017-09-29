@@ -4,21 +4,23 @@
         <div class="row">
             <div class="col-sm-6 col-md-4 col-lg-3 mt-4 carte">
                 <div class="card">
-                    <div class="card-block input">
+
+                  <form class="card-block input" action="controleurAddProject.php" method="post">
                       <h1>Projet</h1>
                       <hr>
-                     <input  type="text" name="titre" value="Titre">
+                     <input type="text" name="titre" >
                      <hr>
-                     <input  type="text" name="description" value="Description">
+                     <input type="text" name="description">
                       <hr>
-                     <input type="text" name="date_fin" value="Date Fin">
+                     <input type="text" name="datefin" >
                      <hr>
-                     <input type="submit" name="info" value="Info">
-                </div>
+                     <input type="submit" name="info" value="Send">
+                </form>
             </div>
         </div>
      </div>
 </div>
+
 
 
 <?php include'../template/footer.php' ?>
