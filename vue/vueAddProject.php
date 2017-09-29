@@ -2,10 +2,10 @@
 
 <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-6 col-md-4 col-lg-3 mt-4 carte">
+            <div class="col-sm-6 col-md-4 col-lg-3 mt-4"id="addProjet">
                 <div class="card">
 
-                  <form class="card-block input" action="controleurAddProject.php" method="post">
+                  <form class="card-block input" action="../controleur/controleurAddProject.php" method="post">
                       <h1>Projet</h1>
                       <hr>
                      <input type="text" name="titre" >
@@ -23,4 +23,7 @@
 
 
 
-<?php include'../template/footer.php' ?>
+<?php include'../template/footer.php'
+
+
+?>

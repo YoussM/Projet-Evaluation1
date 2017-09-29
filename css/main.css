@@ -99,12 +99,12 @@ body{
 }
 
 #footer{
-  margin-top: 15vw;
+  margin-top: 15vh;
   }
 
 h1{
   text-align: center;
-
+  margin-top:20px;
 }
 
 
@@ -115,21 +115,42 @@ h5 {
     margin: 0;
     color: black;
     text-align: center;
+ }
 
-}
-
-.card {
+.card{
     font-size: 1em;
     padding: 0;
     border: none;
     text-align: center;
-
 }
-.carte{
+
+.card1{
+    font-size: 1em;
+    padding: 0;
+    border: none;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+#addProjet{
   margin: auto;
-  padding-top: 50px;
-
+  /*padding-top: 50px;*/
+  margin-top: 32px;
 }
+
+#homeProject{
+  padding-top: 50px;
+  margin-top: 70px;
+}
+
 .input{
   width: 100%;
 }
