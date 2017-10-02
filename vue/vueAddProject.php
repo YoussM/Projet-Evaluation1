@@ -16,6 +16,18 @@
                      <hr>
                      <input type="submit" name="info" value="Send">
                 </form>
+                <form class="card-block input" action="../controleur/controleurAddProject.php" method="post">
+                    <h1>addtask</h1>
+                    <hr>
+                   <input type="text" name="titreTache" >
+                   <hr>
+                   <input type="text" name="descriptionTache">
+                    <hr>
+                   <input type="text" name="date_finTache" >
+                   <hr>
+                   <input type="submit" name="infoTache" value="Send">
+              </form>
+
             </div>
         </div>
      </div>

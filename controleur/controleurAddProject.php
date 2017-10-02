@@ -9,3 +9,11 @@ if (isset($_POST['info'])) {
     insertBdd($titre, $description, $date_fin);
     header('Location: controleurHome.php');
 }
+
+if (isset($_POST['infoTache'])) {
+    $titreTache = $_POST['titreTache'];
+    $descriptionTache = $_POST['descriptionTache'];
+    $date_finTache = $_POST['date_finTache'];
+    insertTache($titreTache, $descriptionTache, $date_finTache);
+    header('Location: controleurHome.php');
+}

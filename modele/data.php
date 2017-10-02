@@ -23,3 +23,10 @@ function delete($id)
     $req=$bdd->prepare('DELETE FROM projet WHERE id=?');
     $req->execute([$id]);
 }
+
+function insertTache($titreTache, $descriptionTache, $date_finTache)
+{
+    $bdd=connectionDataBase();
+    $req= $bdd->prepare('INSERT INTO tache SET titreTache=?, descriptionTache=?, date_finTache=? ');
+    $req->execute([$titreTache,$descriptionTache,$date_finTache]);
+}

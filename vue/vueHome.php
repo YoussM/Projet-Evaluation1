@@ -13,6 +13,8 @@ foreach ($projet as $key => $donnee) {
                   <form class="card-block input" action="controleurHome.php" method="post">
                       <h1>Projet</h1>
                       <hr>
+                     <?php print_r($donnee) ;
+    die(); ?>
                     <p><?php echo $donnee['titre'] ?></p>
                      <hr>
                      <p><?php echo $donnee['description'] ?></p>
