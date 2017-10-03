@@ -18,7 +18,7 @@
     <body>
       <nav class="navbar navbar-light bg-inverse">
             <a class="navbar-brand" href="index.php" style="color: white;">
-          <h1>Acceuil</h1>
+          <h1>Accueil</h1>
             </a>
           <a href="../vue/vueAddProject.php"><button id ="addProjet" type="button" type="submit"><i class="fa fa-check-circle-o" aria-hidden="true">Nouveau Projet</i></button></a>
 

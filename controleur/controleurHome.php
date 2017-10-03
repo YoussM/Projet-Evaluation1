@@ -20,7 +20,4 @@ if (isset($_POST['delete'])) {
 
 
 
-
-
-
 include("../vue/vueHome.php");

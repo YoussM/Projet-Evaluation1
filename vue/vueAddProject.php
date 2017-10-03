@@ -7,27 +7,22 @@
 
                   <form class="card-block input" action="../controleur/controleurAddProject.php" method="post">
                       <h1>Projet</h1>
+
                       <hr>
+                      <label for="">titre</label>
                      <input type="text" name="titre" >
                      <hr>
+                     <label for="">descr</label>
                      <input type="text" name="description">
                       <hr>
+                      <label for="">date</label>
                      <input type="text" name="datefin" >
                      <hr>
                      <input type="submit" name="info" value="Send">
-                </form>
-                <form class="card-block input" action="../controleur/controleurAddProject.php" method="post">
-                    <h1>addtask</h1>
-                    <hr>
-                   <input type="text" name="titreTache" >
-                   <hr>
-                   <input type="text" name="descriptionTache">
-                    <hr>
-                   <input type="text" name="date_finTache" >
-                   <hr>
-                   <input type="submit" name="infoTache" value="Send">
-              </form>
+                     <hr>
+                     <a href="vueAffichageProjet.php">voir plus</a>
 
+                </form>
             </div>
         </div>
      </div>

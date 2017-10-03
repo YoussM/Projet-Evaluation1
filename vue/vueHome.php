@@ -13,17 +13,16 @@ foreach ($projet as $key => $donnee) {
                   <form class="card-block input" action="controleurHome.php" method="post">
                       <h1>Projet</h1>
                       <hr>
-                     <?php print_r($donnee) ;
-    die(); ?>
-                    <p><?php echo $donnee['titre'] ?></p>
+                     <p><?php echo $donnee['titre'] ?></p>
                      <hr>
                      <p><?php echo $donnee['description'] ?></p>
                       <hr>
                     <p><?php echo $donnee['date_fin'] ?></p>
                      <hr>
-                     <input type="submit" name="info" value="info">
+                     <!-- <input type="submit" name="info" value="info"> -->
                      <input type="hidden" name="id" value="<?php echo $donnee['id']?>">
                      <button type="submit" name="delete">delete</button>
+                     <a href="controleurAfficheProject.php?id=<?php echo $donnee['id']?>">voir plus</a>
                 </form>
             </div>
         </div>
